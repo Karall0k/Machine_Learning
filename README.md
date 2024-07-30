@@ -20,5 +20,5 @@ Data Cleaning Steps included:
 
 Machine Learning Model  
 After evaluating multiple deep learning models, the Random Forest Model was selected to evaluate this dataset. The data was further prepared so that the random forest model can distinguishes above-average statistics (1) and below-average statistics (0) for the batting average and slugging average targets. 
-![image](https://github.com/user-attachments/assets/5a9a2e6e-6333-47b8-b68c-af5ea9171da3)
+
 
