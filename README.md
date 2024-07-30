@@ -1,6 +1,4 @@
-# Machine_Learning
-
-#Predicting MLB Batting Performance
+# Machine_Learning: Predicting MLB Batting Performance
 
 Group Members:
 Andrew Amato
@@ -19,6 +17,22 @@ Data Cleaning Steps included:
 •	Store the data and create a table using SQLite  
 
 Machine Learning Model  
-After evaluating multiple deep learning models, the Random Forest Model was selected to evaluate this dataset. The data was further prepared so that the random forest model can distinguishes above-average statistics (1) and below-average statistics (0) for the batting average and slugging average targets. 
+After evaluating multiple deep learning models, the Random Forest Model was selected to evaluate this dataset. The data was further prepared so that the random forest model can distinguishes above-average statistics (1) and below-average statistics (0) for the slugging average targets. 
+
+![Initial DataFrame](Images/Initial_df.png)
 
 
+Initial Target: SLG>AVG  
+Initial Model Features:
+	total_barrels	
+barrels_batted_balls_percentage	
+barrels_plate_appearance_percentage
+
+After training and testing the model, the performance was summarized in a confusion matrix and classification report (shown below).
+
+![image](Images/Initial_Model_CRpt.png)
+
+
+Model Optimization
+
+Attempt 1:
