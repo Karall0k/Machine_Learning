@@ -24,9 +24,9 @@ After evaluating multiple deep learning models, the Random Forest Model was sele
 
 Initial Target: SLG>AVG  
 Initial Model Features:
-                    	total_barrels	
-                    	barrels_batted_balls_percentage	
-                    	barrels_plate_appearance_percentage
+                    	total_barrels,	
+                    	barrels_batted_balls_percentage,	
+                    	barrels_plate_appearance_percentage,
 
 After training and testing the model, the performance was summarized in a confusion matrix and classification report (shown below).
 
@@ -39,21 +39,21 @@ After training and testing the model, the performance was summarized in a confus
 
 Target: SLG>AVG   
 Features:   
-      	launch_angle   	
-       	sweet_spot_percentage    	
-        max_ev   	  
-        average_ev      	
-        fly_ball_line_drive_ev    	  
-        ground_ball_ev     	
-        max_distance     	
-        average_distance      	
-      	average_homerun   	  
-       	hard_hit_95mph+  	    
-        hard_hit_percentage      	
-        hard_hit_swing_percentage      	
-        total_barrels    	  
-        barrels_batted_balls_percentage    	  
-        barrels_plate_appearance_percentage      
+      	launch_angle,   	
+       	sweet_spot_percentage,    	
+        max_ev,   	  
+        average_ev,      	
+        fly_ball_line_drive_ev,    	  
+        ground_ball_ev,     	
+        max_distance,     	
+        average_distance,      	
+      	average_homerun,   	  
+       	hard_hit_95mph+,  	    
+        hard_hit_percentage,      	
+        hard_hit_swing_percentage,      	
+        total_barrels,    	  
+        barrels_batted_balls_percentage,    	  
+        barrels_plate_appearance_percentage,      
 
 
 After training and testing the model, the performance was summarized in a confusion matrix and classification report (shown below).  
