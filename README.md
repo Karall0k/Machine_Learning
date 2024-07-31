@@ -35,7 +35,7 @@ After training and testing the model, the performance was summarized in a confus
 
 **Model Optimization**
 
-Attempt 1: Increasing Features
+**Attempt 1: Increasing Features**
 
 Target: SLG>AVG 
 Features: 
@@ -57,10 +57,26 @@ Features:
 
 
 After training and testing the model, the performance was summarized in a confusion matrix and classification report (shown below).
+![image](Images/Opt_1_CRpt.png)  
 
 
 
 
+
+A evaluation of the feature importance was run for the 15 features. The results are shown below:
+![image](Images/Feature_Importances.png)
+
+**Attempt 2: Adjusting Model Inputs**
+
+Target: SLG>AVG 
+Modifications:
+![image](Images/Opt_2_Mods.png)
+
+
+
+
+The model was tested and trained on each modification. The best performance was achived by changign the maximum depth and the confusion matrix and classification report for this outcome is shown below.
+![image](Images/Opt_2_CRpt_best.png)
 
 
 **Data Sources:**  
