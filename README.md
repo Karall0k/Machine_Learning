@@ -72,7 +72,14 @@ An evaluation of the feature importance was run for the 15 features. The results
 **Attempt 2: Adjusting Model Inputs**
 
 Target: SLG>AVG     
-Modifications:  
+Modifications:    
+        We wrote a function that accepts four inputs:  
+        1. Max depth  
+        2. N estimators  
+        3. Max features  
+        4. Show the top 10 features  
+
+
 ![image](Images/Opt_2_Mods.png)
 
 
@@ -80,6 +87,23 @@ Modifications:
 
 The model was tested and trained on each modification. The best performance was achived by changing the maximum depth and the confusion matrix and classification report for this outcome is shown below.  
 ![image](Images/Opt_2_CRpt_best.png)
+
+
+**Attempt 3: Transforming the Data**
+
+Target: SLG>AVG       
+Modifications: For this we decided to try 4 transformations:  
+        1. x^2  
+        2. e^x  
+        3. sin(x)  
+        4. cos(x)  
+        Where x is the feature’s value.    
+
+![image](Images/Opt_3_Mod.png)
+
+
+The model was re-run on the transformed data. The combined transformations producted the following results:  
+![image](Images/Opt_3_CRpt.png)
 
 
 **Data Sources:**  
