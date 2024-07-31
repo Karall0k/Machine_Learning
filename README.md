@@ -19,7 +19,7 @@ Data Cleaning Steps included:
 •	Merge the datasets into one dataframe and export as a .csv file  
 •	Store the data and create a table using SQLite  
 
-**Machine Learning Model**  
+## **Machine Learning Model**  
 After evaluating multiple deep learning models, the Random Forest Model was selected to evaluate this dataset. The data was further prepared so that the random forest model can distinguishes above-average statistics (1) and below-average statistics (0) for the slugging average targets (dataframe shown below). 
 
 ![Initial DataFrame](Images/Initial_df.png)
@@ -36,7 +36,7 @@ After training and testing the model, the performance was summarized in a confus
 ![image](Images/Initial_Model_CRpt.png)
 
 
-**Model Optimization**
+## **Model Optimization**
 
 **Attempt 1: Increasing Features**
 
@@ -104,6 +104,14 @@ Modifications: For this we decided to try 4 transformations:
 
 The model was re-run on the transformed data. The combined transformations producted the following results:  
 ![image](Images/Opt_3_CRpt.png)
+
+
+## Conclusions
+
+Our inital model, with limited features performed at an accuracy of 0.80. Optimization of the model by increasing its features improved the accuracy to 0.85. Optimization by adjusting the model inputs gave varied results, with the best providing an accuracy score of 0.84. The last optimization performed by tranforming the data using various functions, resulted in an accuract score of 0.84. The greast results were achived by increasing the number of features for the model to evaluate. 
+
+With an accuracy score of about 85%, our model proved to be relatively reliable at categorizing batters as above or below average according to slugging percentage.  Based on our feature analysis, we found that all of the different Statcast metrics had similar contributions to the model, indicating that they represent different yet equally important aspects of hitting.
+
 
 
 **Data Sources:**  
