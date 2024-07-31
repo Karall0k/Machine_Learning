@@ -36,9 +36,7 @@ After training and testing the model, the performance was summarized in a confus
 ![image](Images/Initial_Model_CRpt.png)
 
 
-## **Model Optimization**
-
-**Attempt 1: Increasing Features**
+## **Model Optimization Attempt 1: Increasing Features**
 
 Target: SLG>AVG   
 Features:   
@@ -69,7 +67,7 @@ After training and testing the model, the performance was summarized in a confus
 An evaluation of the feature importance was run for the 15 features. The results are shown below.     
 ![image](Images/Feature_Importances.png)
 
-**Attempt 2: Adjusting Model Inputs**
+## **Model Optimization Attempt 2: Adjusting Model Inputs**
 
 Target: SLG>AVG     
 Modifications:    
@@ -89,7 +87,7 @@ The model was tested and trained on each modification. The best performance was 
 ![image](Images/Opt_2_CRpt_best.png)
 
 
-**Attempt 3: Transforming the Data**
+## **Model Optimization Attempt 3: Transforming the Data**
 
 Target: SLG>AVG       
 Modifications: For this we decided to try 4 transformations:  
