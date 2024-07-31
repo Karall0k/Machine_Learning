@@ -66,7 +66,7 @@ After training and testing the model, the performance was summarized in a confus
 
 
 
-A evaluation of the feature importance was run for the 15 features. The results are shown below.     
+An evaluation of the feature importance was run for the 15 features. The results are shown below.     
 ![image](Images/Feature_Importances.png)
 
 **Attempt 2: Adjusting Model Inputs**
@@ -78,7 +78,7 @@ Modifications:
 
 
 
-The model was tested and trained on each modification. The best performance was achived by changign the maximum depth and the confusion matrix and classification report for this outcome is shown below.  
+The model was tested and trained on each modification. The best performance was achived by changing the maximum depth and the confusion matrix and classification report for this outcome is shown below.  
 ![image](Images/Opt_2_CRpt_best.png)
 
 
