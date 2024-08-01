@@ -11,7 +11,7 @@ Brian Morrissey
 **Objective:** What batting statistic best predict hitter performance?  
 In this analysis, a machine learning model was used to predict major league batter performance based on batter data from stathead.com and Statcast (via Kaggle.com). The data selected covers player batting statistics from 2017 – 2019. More recent data was not readily available, incomplete, or had too small of a sample size.
 
-**Special Instructions for running notebook:** Make sure your version of Sklearn is version 1.4 or greater before running the notebook.
+**Special Instructions for running notebook:** Make sure your installed version of Scikit-learn is 1.4 or greater before running the notebook.
 
 
 Data Cleaning Steps included:  
